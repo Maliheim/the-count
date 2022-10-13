@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(22, 30, 23);
+    display: grid;
+    place-items: center;
+}
+
+#countBtn{
+    background:url(./images/Count_Kneeling.webp);
+    background-size: 100%;
+    width: 420px;
+    height: 483px;
+}
+
+#count{
+    color: aliceblue;
+}
